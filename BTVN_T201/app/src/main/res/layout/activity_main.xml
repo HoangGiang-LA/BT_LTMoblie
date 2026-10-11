@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TIÊU ĐỀ -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:text="Thực hành 03"
+            android:textColor="#202020"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- KHOẢNG CÁCH -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <!-- NHẬP SỐ THỨ NHẤT -->
+        <EditText
+            android:id="@+id/edtNumber1"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Nhập số thứ nhất (-99 đến 99)"
+            android:inputType="numberSigned|numberDecimal"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="@android:drawable/edit_text"
+            android:importantForAutofill="no" />
+
+        <!-- KHOẢNG CÁCH -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <!-- BỐN NÚT PHÉP TÍNH -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="4">
+
+            <!-- CỘNG -->
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:text="+"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#E24C45" />
+
+            <!-- TRỪ -->
+            <Button
+                android:id="@+id/btnSubtract"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="-"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#DDA943" />
+
+            <!-- NHÂN -->
+            <Button
+                android:id="@+id/btnMultiply"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="×"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#5D42D8" />
+
+            <!-- CHIA -->
+            <Button
+                android:id="@+id/btnDivide"
+                android:layout_width="0dp"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:text="÷"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#262626" />
+
+        </LinearLayout>
+
+        <!-- KHOẢNG CÁCH -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <!-- NHẬP SỐ THỨ HAI -->
+        <EditText
+            android:id="@+id/edtNumber2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="Nhập số thứ hai (-99 đến 99)"
+            android:inputType="numberSigned|numberDecimal"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:background="@android:drawable/edit_text"
+            android:importantForAutofill="no" />
+
+        <!-- HIỂN THỊ KẾT QUẢ -->
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Kết quả:"
+            android:textColor="#202020"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
