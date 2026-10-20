@@ -1,0 +1,8 @@
+com.example.btvn_t3.app-pngs-0 D:\BT_LTMobile\Tuan3\BTVN_T3\app\build\generated\res\pngs\debug
+com.example.btvn_t3.app-updated_navigation_xml-1 D:\BT_LTMobile\Tuan3\BTVN_T3\app\build\generated\updated_navigation_xml\debug
+com.example.btvn_t3.app-packageDebugResources-2 D:\BT_LTMobile\Tuan3\BTVN_T3\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.btvn_t3.app-packageDebugResources-3 D:\BT_LTMobile\Tuan3\BTVN_T3\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.btvn_t3.app-debug-4 D:\BT_LTMobile\Tuan3\BTVN_T3\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.btvn_t3.app-debug-5 D:\BT_LTMobile\Tuan3\BTVN_T3\app\src\debug\res
+com.example.btvn_t3.app-main-6 D:\BT_LTMobile\Tuan3\BTVN_T3\app\src\main\res
+gradleHome-0 C:\Users\ADMIN\.gradle
